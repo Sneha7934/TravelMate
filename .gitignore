@@ -1,0 +1,22 @@
+# Environment variables (Sensitive)
+.env
+.env.*
+!.env.example
+
+# Build outputs
+target/
+dist/
+dist-ssr/
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
